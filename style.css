@@ -78,10 +78,20 @@
     border-bottom-right-radius: 16px;
 
 }
+.second > p{
+    color: rgb(227, 233, 233);
+    font-size: 1rem;
+}
 .first > button {
     background-color: var(--bright-yellow);
     border: none;
     width: 81%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 3em;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
 
 }
 #price{
@@ -104,4 +114,11 @@
         display: grid;
         grid-template-columns: 100%;
     }
+    .first{
+        border-radius: 0;
+    }
+    .second{
+        border-bottom-left-radius: 16px;
+    }
+
 }
